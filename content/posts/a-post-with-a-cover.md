@@ -5,7 +5,7 @@ published: true
 tags:
   - Markdown
   - Cover Image
-cover_image: ""
+cover_image: ../../static/images/uploads/pexels-negative-space-160107.jpg
 description: 目前微信非认证订阅号是不支持自定义菜单项跳转到指定网页的
 ---
 目前微信非认证订阅号是不支持自定义菜单项跳转到指定网页的，官方文档说明在[这里](https://kf.qq.com/faq/120911VrYVrA150212ENnyqM.html)
