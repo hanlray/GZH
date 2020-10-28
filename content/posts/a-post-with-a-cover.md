@@ -1,24 +1,18 @@
 ---
-title: A post with a cover image
-date: 2019-01-07T00:00:00.000Z
+title: 关于微信公众号自定义菜单跳转到网页
+date: 2020-10-28T05:50:29.416Z
 published: true
 tags:
   - Markdown
   - Cover Image
-cover_image: ../../static/images/uploads/alexandr-podvalny-220262-unsplash.jpg
-description: >-
-  Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
-  Readability, however, is emphasized above all else. A Markdown-formatted
-  document should be publishable as-is, as plain text, without looking like it's
-  been marked up with tags or formatting instructions.
+cover_image: ""
+description: 目前微信非认证订阅号是不支持自定义菜单项跳转到指定网页的
 ---
+目前微信非认证订阅号是不支持自定义菜单项跳转到指定网页的，官方文档说明在[这里](https://kf.qq.com/faq/120911VrYVrA150212ENnyqM.html)
 
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. 
+如果使用微擎来管理公众号，要想在公众号菜单添加网页跳转菜单项：
 
-While Markdown's syntax has been influenced by several existing text-to-HTML filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html), [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/), [reStructuredText](http://docutils.sourceforge.net/rst.html),
-[Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.
+1. 确保自己的公众号类型不是非认证订阅号
+2. 在微擎后台把自己的公众号类型改为正确的类型
 
-
+这样在编辑自定义菜单时跳转网页的选项就会显示出来了
